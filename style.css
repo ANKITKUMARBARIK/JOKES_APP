@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #0d0d0d;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #ff00a6;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: #161616;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(255, 0, 150, 0.1);
+}
+
+img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.joke-card {
+    background: #1f1f1f;
+    padding: 25px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    color: #d4d4d4;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.joke-btn {
+    background: #ff00a6;
+    color: #0d0d0d;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(255, 0, 150, 0.3);
+    margin-bottom: 30px;
+}
+
+.joke-btn:hover {
+    background: #e60094;
+    transform: translateY(-3px);
+}
